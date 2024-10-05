@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+body{
+    font-size: 1rem;
+}
+
+.cabeca{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: 2px solid black ;
+}
+
+.img-cabeca{
+    height: 80px;
+}
+
+.textos-cabeca{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.textos{
+     text-decoration: none;
+     color: black;
+     font-size: 17px;
+     font-family: sans-serif;
+}
+
+.botao-cabeca{
+    
+     display: inline-block;
+     height: 40px;
+     width: 110px;
+     border-radius: 32px;
+     background-color: rgb(21, 169, 233);
+     border: none;
+     cursor: pointer;
+     padding: 10px 20px;
+     color: white;
+    transition: box-shadow 0.10s ease;
+    text-decoration: none;
+}
+.link-botao:hover{
+    background-color:rgb(122, 181, 206);
+    box-shadow: 0 0 15px rgba(81, 226, 252, 0.7) ;
+    border-radius: 32px;
+}
+
+.meio{
+    background-color: #1879BE;
+    display: flex;
+    justify-content: space-around;
+    padding: 242px;
+    gap: 10%;
+    border-bottom: 2px solid black;
+}
+
+.conteudo-direito{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.texto-meio{
+    font-family: "Playwrite DE Grund", cursive;
+    font-style: normal;
+    font-size: 200%;
+    color: white;
+}
+
+.botao-meio{
+    display: inline-block;
+     height: 40px;
+     width: 110px;
+     border-radius: 32px;
+     background-color: #F47059;
+     border: none;
+     cursor: pointer;
+     padding: 10px 20px;
+     color: white;
+    transition: box-shadow 0.10s ease;
+    text-decoration: none;
+}
+
+.botao-meio:hover{
+    background-color:#f07f6b;
+    box-shadow: 0 0 15px #F47059 ;
+    border-radius: 32px;
+}
+
+.img-meio{
+    border-radius: 30px;
+    transition: transform 0.7s ease-in-out, border 0.8s ease-in-out;
+    border: 5px solid transparent;
+}
+
+.img-meio:hover{
+    transform: scale(1.1);
+    background-color:#b1daf7;
+    box-shadow: 0 0 15px #b1daf7;
+    border-radius: 32px;
+}
+
+
+.redes-sociais{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  padding: 10px;
+}
+
+.img-fundo{
+    width: 30px;
+}
+
+
